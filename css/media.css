@@ -903,6 +903,25 @@ body {
     padding-top: 60px;
     padding-bottom: 52px;
     }
+    .list-arrows {
+    	font-size: 14px;
+    }
+    .master .btn-main {
+    	width: 230px;
+    }
+    .list-arrows li {
+    margin-bottom: 15px;
+}
+.master__image {
+    max-width: 235px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+        height: 240px;
+}
+.master-statistic {
+	width: 100%;
+	justify-content: space-around;
+}
 }
 
 /* Extra Small Devices, Phones */
