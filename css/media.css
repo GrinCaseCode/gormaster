@@ -1123,6 +1123,12 @@
 		width: initial;
 		max-width: initial;
 	}
+	.contacts .selection-form {
+		margin: 0;
+	}
+	.contacts {
+		padding-bottom: 0;
+	}
 }
 @media only screen and (max-width : 362px) {
 	.header .logo {
