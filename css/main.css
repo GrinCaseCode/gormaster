@@ -1803,3 +1803,6 @@ color: #c30d23;
 .item-header_city.active .item-dropdown__value i {
 	transform: rotate(180deg);
 }
+.title-section_page {
+	padding: 25px 0;
+}
