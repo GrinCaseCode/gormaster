@@ -6,7 +6,7 @@
 	color: #383838;
 	opacity: 1;
 }
-*::-moz-placeholder {
+*::-moz-placeholder { 
 	color: #383838;
 	opacity: 1;
 }
@@ -217,7 +217,7 @@ form {
 	justify-content: center;
 }
 .menu li a:hover {
-	background-color: #dedede;
+color: #c30d23;
 }
 .header-bottom__wrap {
 	display: flex;
@@ -290,16 +290,22 @@ form {
 	transition: all 0.5s;
 	transition-delay: 0.1s;
 }
-.sandwich.active .sw-topper {
+.btn_nav-menu .sandwich.active .sw-topper {
 	top: 12px;
 	transform: rotate(45deg);
 }
-.sandwich.active .sw-bottom {
+.btn_nav-menu .sandwich.active .sw-bottom {
 	opacity: 0;
 }
-.sandwich.active .sw-footer {
+.btn_nav-menu .sandwich.active .sw-footer {
 	top:8px;
 	transform: rotate(-45deg); 
+}
+.btn_nav-dropdown .sandwich > span {
+	transform: all 0.3s !important;
+}
+.btn_nav-dropdown .sandwich.active > span {
+	background-color: #c30d23;
 }
 .header__wrap .btn-icon {
 	margin-right: -40px;
@@ -862,7 +868,7 @@ form {
 	align-items: center;
 	justify-content: center;
 	transition: all 0.3s;
-}
+} 
 .slick-arrow:hover {
 	background-color: #cccccc;
 }
@@ -1554,4 +1560,246 @@ form {
 }
 .footer__title i {
 	display: none;
+}
+.header-bottom .container {
+	position: relative;
+}
+.menu-dropdown {
+	width: 100%;
+	max-height: calc(100vh - 149px);
+	overflow: auto;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	display: none;
+}
+.menu-dropdown ul {
+	width: 346px;
+	padding: 30px 0;
+	background-color: #fff;
+}
+.menu-dropdown a {
+	color: #383838;
+	transition: all 0.3s;
+}
+.menu-dropdown > ul > li:hover > a,
+.menu-dropdown a:hover {
+	color: #bf292f;
+}
+.menu-dropdown li {
+	padding: 0 45px;
+	margin-bottom: 15px;
+	position: relative;
+}
+.menu-dropdown > ul > li {
+	margin: 0;
+}
+.menu-dropdown > ul > li.menu-dropdown__haschild > a::after {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	line-height: 1;
+	font-family: "Font Awesome 5 Pro";
+	font-weight: 500;
+	transition: all 0.3s;
+	content: "\f054";
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 8px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.menu-dropdown > ul > li > a {
+	padding: 7px 0;
+	display: block;
+	position: relative;
+}
+.menu-dropdown ul ul {
+	position: absolute;
+	left: 100%;
+	top: 0;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.2s;
+}
+.menu-dropdown ul ul a {
+	border-bottom: 1px solid transparent;
+}
+.menu-dropdown ul ul a:hover {
+	border-color: #bf292f;
+}
+.menu-dropdown li:hover ul {
+	visibility: visible;
+	opacity: 1;
+}
+.menu-dropdown::-webkit-scrollbar {
+	-webkit-appearance: none;
+}
+.menu-dropdown::-webkit-scrollbar:vertical {
+	width: 0px;
+}
+.menu-dropdown::-webkit-scrollbar:horizontal {
+	height: 0px;
+}
+.menu-dropdown::-webkit-scrollbar-thumb {
+	background-color: transparent;
+	border-radius: 10px;
+}
+.menu-dropdown::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: transparent;
+}
+.menu-dropdown > ul > li:nth-child(3) ul {
+	transform: translateY(-20%);
+}
+.menu-dropdown > ul > li:nth-child(4) ul {
+	transform: translateY(-25%);
+}
+.menu-dropdown > ul > li:nth-child(5) ul {
+	transform: translateY(-30%);
+}
+.menu-dropdown > ul > li:nth-child(6) ul {
+	transform: translateY(-35%);
+}
+.menu-dropdown > ul > li:nth-child(7) ul {
+	transform: translateY(-40%);
+}
+.menu-dropdown > ul > li:nth-child(9) ul {
+	transform: translateY(-60%);
+}
+.menu-dropdown > ul > li:nth-child(10) ul {
+	transform: translateY(-65%);
+}
+.menu-dropdown > ul > li:nth-child(11) ul {
+	transform: translateY(-75%);
+}
+.menu-dropdown > ul > li:nth-child(12) ul {
+	transform: translateY(-80%);
+}
+.menu-dropdown > ul > li:nth-child(n+13) ul {
+	transform: translateY(-90%);
+}
+.catalog-masters {
+	padding-bottom: 55px;
+	background-color: #f9f9f9;
+}
+.pager {
+	padding-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.page-numbers {
+	font-size: 18px;
+	display: inline-block;
+	margin: 0 15px;
+	font-weight: 700;
+color: #18d15c;
+transform: all 0.3s;
+}
+.page-numbers:hover {
+	color: #767676;
+}
+.page-numbers.current {
+	font-weight: 500;
+color: #767676;
+}
+.prev.page-numbers,
+.next.page-numbers {
+	font-size: 10px;
+	width: 25px;
+height: 25px;
+color: #383838 !important;
+background-color: #ebebeb;
+transform: all 0.3s;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.prev.page-numbers:hover,
+.next.page-numbers:hover {
+	background-color: #cccccc;
+}
+.prev.page-numbers {
+	margin-right: 30px;
+}
+.next.page-numbers {
+	margin-left: 30px;
+}
+.dropdown-city {
+	padding: 50px;
+	padding-bottom: 100px;
+	height: calc(100vh - 150px);
+	position: absolute;
+	top: 100%;
+	left: -40px;
+	width: 1087px;
+	margin-top: 23px;
+	display: none;
+	background-color: #fff;
+	z-index: 90;
+}
+.dropdown-city__name {
+	margin-bottom: 10px;
+	font-weight: 700;
+color: #383838;
+}
+.dropdown-city__wrap {
+	columns: 4;
+}
+.dropdown-scroll {
+		height: calc(100% - 50px);
+	overflow: auto;
+}
+.dropdown-city__item {
+  -webkit-column-break-inside: avoid;
+            page-break-inside: avoid;
+                 break-inside: avoid;
+}
+.dropdown-city ul {
+	font-weight: 400;
+}
+.dropdown-city ul li {
+	margin-bottom: 15px;
+}
+.dropdown-city ul li a {
+	color: #383838;
+	border-bottom: 1px solid transparent;
+	transition: all 0.3s;
+}
+.dropdown-city ul li a:hover {
+	color: #c30d23;
+	border-bottom: 1px solid #c30d23;
+}
+.dropdown-scroll::-webkit-scrollbar {
+	-webkit-appearance: none;
+}
+.dropdown-scroll::-webkit-scrollbar:vertical {
+	width: 4px;
+}
+.dropdown-scroll::-webkit-scrollbar:horizontal {
+	height: 0px;
+}
+.dropdown-scroll::-webkit-scrollbar-thumb {
+	background-color: rgba(102, 102, 102, 0.5);
+	border-radius: 10px;
+}
+.dropdown-scroll::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: rgba(102, 102, 102, 0.2);
+}
+.item-header_city.active > * {
+color: #c30d23;
+}
+.item-header_city {
+	cursor: pointer;
+}
+.item-header_city.active .item-dropdown__value i {
+	transform: rotate(180deg);
 }
