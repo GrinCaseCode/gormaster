@@ -1006,6 +1006,10 @@
 	.contacts {
 		padding-bottom: 45px;
 	}
+	.dropdown-city {
+		margin: 0;
+		    padding-bottom: 120px;
+	}
 }
 
 /* Extra Small Devices, Phones */
