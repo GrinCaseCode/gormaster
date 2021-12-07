@@ -1806,3 +1806,46 @@ color: #c30d23;
 .title-section_page {
 	padding: 25px 0;
 }
+#map {
+	margin-left: 20px;
+	height: 495px;
+	background-color: #fff;
+	max-width: 100%;
+}
+.contacts {
+	padding-bottom: 73px;
+	background-color: #f9f9f9;
+}
+.contacts .title-section span {
+	display: block;
+}
+.contacts-block {
+	padding: 40px 55px;
+	max-width: 370px;
+	padding-bottom: 20px;
+	font-size: 14px;
+	line-height: 24px;
+	min-height: 100%;
+	background-color: #fff;
+}
+.contacts-block a {
+	color: #383838;
+}
+.contacts-block .title-middle {
+	padding-top: 35px;
+	padding-bottom: 20px;
+}
+.contacts-block .title-middle:first-of-type {
+	padding-top: 0;
+}
+.contacts-block strong {
+	font-size: 16px;
+	margin-bottom: 20px;
+	display: block;
+}
+.contacts .selection-form {
+	margin-top: 50px;
+}
+.title-middle_phones {
+	margin-bottom: 10px;
+}
