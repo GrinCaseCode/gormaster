@@ -1655,6 +1655,9 @@
     .modal-block .block-form_small {
     	padding: 40px 15px;
     }
+    .reasons-title {
+    margin-bottom: 20px;
+}
 }
 @media only screen and (max-width : 362px) {
 	.header .logo {
