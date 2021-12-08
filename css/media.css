@@ -15,6 +15,13 @@
 	.dropdown-city {
 		left: -120px;
 	}
+	.reviews-billbord__left {
+		margin-right: -30px;
+	}
+	.reviews-page #tab2 .selection-form {
+		padding-left: 80px;
+		padding-right: 80px;
+	}
 }
 @media only screen and (max-width : 1575px) {
 	.search-form {
@@ -102,86 +109,68 @@
 		padding-left: 40px;
 		padding-right: 40px;
 	}
-}
-@media only screen and (max-width : 1460px) {
-	body {
-		font-size: 14px;
-		line-height: 24px;
+	.about-billbord__left {
+		margin-right: -50px;
 	}
-	.logo {
-		font-size: 11px;
-	}
-	.item-header__title {
-		font-size: 13px;
-	}
-	.title-big {
-		font-size: 32px;
-		margin-bottom: 25px;
-	}
-	.billbord .title-big {
-		max-width: 575px;
-	}
-	.list-billbord {
-		font-size: 16px;
-		margin-bottom: 40px;
-	}
-	.descr-big {
-		font-size: 17px;
-	}
-	.billbord .descr-big {
+	.row_cards > div {
+		padding: 0 15px;
 		margin-bottom: 35px;
-		max-width: 575px;
 	}
-	.billbord {
-		padding-top: 75px;
-		min-height: 560px;
+	.row_cards {
+		margin: 0 -15px;
 	}
-	.slider-photos__item {
-		height: 113px;
-	}
-	.line-price {
-		font-size: 16px;
-		margin-bottom: 15px;
-	}
-	.item-review {
-		padding: 22px 25px;
-	}
-	.master__image {
-		height: 245px;
-	}
-	.video-review {
-		height: 310px;
-	}
-	.item-benefit {
-		padding-left: calc((100% - 1300px)/2);
-		font-size: 16px;
-		line-height: 27px;
-	}
-	.item-benefit__image {
-		height: 460px;
-	}
-	.item-benefit::before {
-		width: 52%;
-	}
-	.title-section {
-		font-size: 33px;
-		line-height: 45px;
-	}
-	.selection-form {
-		padding: 50px 100px;
-	}
-	.customer-block {
-		height: 385px;
-	}
-	.descr-big {
-		font-size: 16px;
-	}
-	.footer__menu a, .footer__title {
-		font-size: 17px;
-	}
-	.wrapper {
-		padding-top: 143px;
-	}
+	.card-about__title {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 12px;
+}
+.number-reason {
+	margin-right: 20px;
+}
+.card-about, .text-page {
+    font-size: 17px;
+    line-height: 26px;
+    }
+    .slider-partners__item {
+    width: 230px;
+    height: 145px;
+}
+.slider-partners .slick-active.slick-center .slider-partners__item {
+    width: 320px;
+    height: 215px;
+}
+.slider-partners .slick-prev {
+    left: 8px;
+}
+.slider-partners .slick-next {
+    right: 8px;
+}
+.slider-partners .slick-track {
+	height: 215px;
+}
+.item-team__image {
+	height: 390px;
+}
+.block-form_help {
+    padding: 50px 80px;
+}
+.review {
+	padding: 40px 0;
+}
+.review .col-lg-3 .title-middle {
+	font-size: 22px;
+}
+.slider-review .slider-review__item {
+    height: 120px;
+    margin: 0 10px;
+    }
+    .slider-review {
+    	margin: 0 -10px;
+    }
+    .review .title-small {
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
 
 }
 @media only screen and (max-width : 1470px) {
@@ -309,6 +298,166 @@
 .contacts-block {
 	padding-left: 25px;
 	padding-right: 25px;
+}
+.card-about {
+	padding: 25px 20px;
+}
+.number-reason {
+	font-size: 95px;
+}
+
+.row_team > div {
+	padding: 0 15px;
+	margin-bottom: 20px;
+}
+.row_team {
+	margin: 0 -15px;
+}
+.item-team__image {
+    height: 345px;
+}
+.card-about, .text-page {
+    font-size: 15px;
+    line-height: 25px;
+}
+.approach .card-about__wrap {
+	margin-bottom: 18px;
+}
+.slider-partners .slick-track {
+	height: 190px;
+}
+.partners {
+	padding-top: 10px;
+	padding-bottom: 60px;
+}
+.card-about__title {
+    font-size: 18px;
+    line-height: 28px;
+    }
+}
+@media only screen and (max-width : 1460px) {
+	body {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.logo {
+		font-size: 11px;
+	}
+	.item-header__title {
+		font-size: 13px;
+	}
+	.title-big {
+		font-size: 32px;
+		margin-bottom: 25px;
+	}
+	.billbord .title-big {
+		max-width: 575px;
+	}
+	.list-billbord {
+		font-size: 16px;
+		margin-bottom: 40px;
+	}
+	.descr-big {
+		font-size: 17px;
+	}
+	.billbord .descr-big {
+		margin-bottom: 35px;
+		max-width: 575px;
+	}
+	.billbord {
+		padding-top: 75px;
+		min-height: 560px;
+	}
+	.slider-photos__item {
+		height: 113px;
+	}
+	.line-price {
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+	.item-review {
+		padding: 22px 25px;
+	}
+	.master__image {
+		height: 245px;
+	}
+	.video-review {
+		height: 310px;
+	}
+	.item-benefit {
+		padding-left: calc((100% - 1300px)/2);
+		font-size: 16px;
+		line-height: 27px;
+	}
+	.item-benefit__image {
+		height: 460px;
+	}
+	.item-benefit::before {
+		width: 52%;
+	}
+	.title-section {
+		font-size: 33px;
+		line-height: 45px;
+	}
+	.selection-form {
+		padding: 50px 100px;
+	}
+	.customer-block {
+		height: 385px;
+	}
+	.descr-big {
+		font-size: 16px;
+	}
+	.footer__menu a, .footer__title {
+		font-size: 17px;
+	}
+	.wrapper {
+		padding-top: 143px;
+	}
+.slider-partners__item {
+    width: 210px;
+    height: 120px;
+    margin: 0 9px;
+}
+.slider-partners .slick-active.slick-center .slider-partners__item {
+    width: 260px;
+    height: 170px;
+}
+.slider-partners .slick-prev {
+    left: 0px;
+}
+.slider-partners .slick-next {
+    right: 0px;
+}
+.help-flex .btn-simple {
+	padding: 0 14px;
+}
+.block-form_help {
+    padding: 50px 57px;
+}
+.help-flex {
+    margin-bottom: 24px;
+}
+.help .text-page p {
+    margin-bottom: 14px;
+}
+.help .title-middle {
+	padding-bottom: 25px;
+}
+.slider-review .slider-review__item {
+	height: 110px;
+}
+.reviews-page .selection-form {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+.reviews-page .pager {
+	padding-bottom: 0;
+}
+}
+@media only screen and (max-width : 1370px) {
+.review__image {
+	margin-right: 15px;
 }
 }
 /* Large Devices, Wide Screens */
@@ -505,6 +654,118 @@
 .contacts-block .title-middle {
 	padding-top: 25px;
 	padding-bottom: 15px;
+}
+.about-billbord__left {
+    margin-right: 0;
+}
+.about-billbord {
+    font-size: 15px;
+    line-height: 22px;
+    padding-top: 50px;
+    min-height: 565px;
+}
+.card-about__title {
+    font-size: 16px;
+    line-height: 23px;
+}
+.row_cards > div {
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.row_cards {
+	margin: 0 -10px;
+}
+.number-reason {
+    font-size: 83px;
+    margin-right: 10px;
+}
+.professionals .title-section {
+	padding-bottom: 30px;
+}
+.list-with-icons li {
+	margin-bottom: 15px;
+}
+.professionals {
+	padding-top: 40px;
+}
+.approach {
+	padding-top: 0;
+}
+.slider-partners .slick-prev {
+	left: 40px;
+}
+.slider-partners .slick-next {
+	right: 40px;
+}
+.team {
+	padding-top: 0;
+	padding-bottom: 30px;
+}
+.item-team {
+	padding: 10px;
+	padding-bottom: 20px;
+}
+.item-team__image {
+    height: 300px;
+}
+.row_team > div {
+	padding: 0 7px;
+}
+.row_team {
+	margin: 0 -7px;
+}
+.help .title-section {
+	padding-bottom: 20px;
+}
+.help-flex {
+	margin-bottom: 20px;
+	display: block;
+}
+.help {
+	padding: 40px 0;
+}
+.reviews-page .tabs li {
+	flex: 1;
+	width: initial;
+}
+.review .col-lg-3 .title-middle {
+    font-size: 20px;
+}
+.review .title-middle {
+	padding-bottom: 15px;
+}
+.review {
+	font-size: 16px;
+	line-height: 26px;
+}
+.slider-review .slider-review__item {
+	height: 125px;
+}
+.reviews-page .selection-form {
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: 0;
+	margin-right: 0;
+}
+.reviews-page {
+	padding-bottom: 50px;
+}
+.review__doc {
+	margin-bottom: 15px;
+}
+.reviews-page #tab2 .selection-form {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.review-left {
+	display: block;
+}
+.review__image {
+	margin-right: 0;
+	margin-bottom: 20px;
+}
+.review .title-middle {
+	padding-bottom: 10px;
 }
 }
 
@@ -815,6 +1076,78 @@
 	.contacts-block strong {
 		font-size: 16px;
 	}
+	.about-billbord {
+		padding-top: 30px;
+		padding-bottom: 20px;
+		min-height: initial;
+		background-image: none;
+	}
+	.about-billbord .list-billbord {
+		padding-top: 15px;
+		margin: 0;
+	}
+	.image-professional {
+		display: none;
+	}
+	.professionals__left {
+		padding-bottom: 0;
+	}
+	.professionals {
+		padding-bottom: 20px;
+	}
+	.slider-partners .slick-prev {
+		left: -10px;
+	}
+	.slider-partners .slick-next {
+		right: -10px;
+	}
+	.help-flex {
+		display: flex;
+	}
+	.col_checkbox {
+		padding-top: 20px;
+		display: flex;
+		justify-content: center;
+		order: 2;
+	}
+	.block-form_help {
+		padding: 30px 50px;
+	}
+	.about-billbord .title-big {
+		margin-bottom: 25px;
+	}
+	.reviews-billbord__left {
+		padding-right: 100px;
+		margin-right: 0;
+	}
+	.reviews-billbord {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    min-height: 317px;
+}
+.review {
+	padding: 25px 0;
+}
+.review .col-lg-9 {
+	padding-top: 20px;
+}
+.review-left {
+	display: flex;
+}
+.review__image {
+	margin: 0;
+	margin-right: 25px;
+}
+.reviews-page #tab3 .selection-form {
+	padding-bottom: 40px;
+}
+.modal-block .col_checkbox {
+	padding-top: 0;
+	order: initial;
+}
+.modal-block .block-form_modal {
+	padding: 40px 40px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -1010,6 +1343,132 @@
 		margin: 0;
 		    padding-bottom: 120px;
 	}
+	.about-billbord .list-billbord {
+		padding-top: 0;
+		display: block;
+	}
+	.about-billbord .list-billbord li {
+		margin-bottom: 15px;
+	}
+	.reasons-title {
+		margin-bottom: 30px;
+	}
+	.professionals .text-page {
+		padding-top: 20px;
+	}
+	.card-about, .text-page {
+    font-size: 14px;
+    line-height: 23px;
+}
+.approach {
+	padding-bottom: 30px;
+}
+.slider-partners .slick-active.slick-center .slider-partners__item {
+    width: 240px;
+    height: 145px;
+}
+.slider-partners__item {
+    width: 198px;
+    height: 108px;
+    opacity: 1;
+}
+.slider-partners .slick-track {
+	height: 145px;
+}
+.slider-partners {
+	padding-bottom: 30px;
+}
+.slick-dots li {
+	margin: 0 7px;
+}
+.partners {
+	padding-bottom: 45px;
+}
+.item-team {
+	padding: 20px;
+	padding-bottom: 30px;
+}
+.item-team__image {
+    height: 340px;
+}
+.reasons {
+	padding-top: 40px;
+}
+.reviews-billbord {
+	padding-top: 50px;
+	background-position: 67% 50%;
+}
+.reviews-page .tab-container {
+	padding: 20px 15px;
+	padding-top: 0;
+}
+.review .col-lg-3 .title-middle {
+    font-size: 17px;
+}
+.slider-review {
+	padding-bottom: 15px;
+}
+.slider-review .slick-dots {
+	bottom: -8px;
+}
+.slider-review .slider-review__item {
+	margin: 0 5px;
+	height: 100px;
+}
+.slider-review {
+	margin: -5px;
+}
+
+.review .title-small {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.review-reply .title-small {
+	padding-bottom: 10px;
+	padding-top: 0;
+}
+.review-reply {
+	padding-left: 20px;
+}
+.reviews-billbord .btn-main {
+	width: initial;
+}
+.reviews-page #tab2 .selection-form {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.reviews-page #tab3 .selection-form .title-middle br {
+	display: none;
+}
+.block-form__wrapper {
+	padding: 0;
+}
+.modal-block .block-form_modal {
+    padding: 40px 20px;
+    padding-top: 50px;
+}
+.modal-block .title-middle br {
+	display: none;
+}
+.col_checkbox-car .checkbox {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+.modal-block .col_checkbox {
+	order: 2;
+}
+.form-flex {
+	display: block;
+}
+.rating-wrap {
+	white-space: normal;
+}
+.form-flex .file-upload {
+	margin-bottom: 20px;
+}
+.modal-block .block-form_small {
+    padding: 40px 35px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -1133,6 +1592,69 @@
 	.contacts {
 		padding-bottom: 0;
 	}
+	.about-billbord .list-billbord {
+		padding-right: 0;
+	}
+	.item-team__image {
+    height: 300px;
+    margin-bottom: 15px;
+}
+.help-flex .item-header {
+	margin-top: 0;
+}
+.reviews-billbord__left {
+    padding-right: 50px;
+    }
+    .reviews-billbord {
+    padding-top: 50px;
+    background-position: 69% 50%;
+}
+.review {
+    font-size: 14px;
+    line-height: 23px;
+}
+.slider-review .slider-review__item {
+	height: 87px;
+}
+.reviews-page .tab-container {
+	margin: 0 -15px;
+	padding-bottom: 40px;
+}
+.reviews-page .selection-form {
+	padding: 20px 15px;
+	margin-top: 20px;
+}
+.reviews-page {
+	padding-bottom: 0;
+}
+.reviews-page #tab2 .selection-form {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.reviews-page #tab4 .selection-form,
+.reviews-page #tab3 .selection-form {
+	padding-bottom: 30px;
+} 
+.modal-block .block-form_modal {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.modal-block .col_checkbox {
+	padding-right: 15px;
+}
+.rating-wrap__text {
+    margin-right: 6px;
+    font-size: 12px;
+    }
+    #modal-review .block-form_modal {
+    	padding-bottom: 30px;
+    }
+    #modal-review .title-min {
+    	padding-bottom: 10px;
+    }
+    .modal-block .block-form_small {
+    	padding: 40px 15px;
+    }
 }
 @media only screen and (max-width : 362px) {
 	.header .logo {
