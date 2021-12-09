@@ -26,6 +26,19 @@ $(".item-question__head").click(function() {
 	$(this).parent().siblings(".item-question").find(".item-question__content").slideUp(200);
 });
 
+$("li.nav-prices__haschild > a").click(function(e) {
+	e.preventDefault();
+	$(this).parent().toggleClass("active");
+	$(this).siblings().slideToggle(200);
+	$(this).parent().siblings("li.nav-prices__haschild").removeClass("active");
+	$(this).parent().siblings("li.nav-prices__haschild").find("ul").slideUp(200);
+});
+
+$(".btn-main_filter-price").click(function(e) {
+	e.preventDefault();
+	$(".nav-prices").slideToggle(200);
+});
+
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
