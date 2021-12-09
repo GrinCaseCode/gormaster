@@ -1066,7 +1066,8 @@
 		margin-bottom: 10px;
 	}
 	.header__wrap .btn-icon {
-		order: -1;
+	margin-left: auto;
+	margin-right: 20px;
 	}
 	.btn_nav-menu {
 		margin: 0;
@@ -1311,9 +1312,7 @@
 		max-width: 300px;
 		columns: 1;
 	}
-	.billbord .btn-main {
-		background-color: #18d15c;
-	}
+
 	.billbord::after {
 		position: absolute;
 		display: block;
