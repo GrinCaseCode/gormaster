@@ -2174,7 +2174,8 @@
 	}
 
 	.billbord_b2b .title-big {
-		max-width: 238px;
+		max-width: 340px;
+		margin-bottom: 30px;
 	}
 	.billbord_b2b {
     background-position: 56% center;
@@ -2214,7 +2215,10 @@
     .billbord_service .title-big {
     	font-size: 18px;
     	max-width: 240px;
-    	margin-bottom: 30px;
+    	margin-bottom: 20px;
+    }
+    .billbord_service {
+    	padding-top: 65px;
     }
     .problems .title-middle {
     	margin-bottom: 30px;
