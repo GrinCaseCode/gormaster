@@ -1,73 +1,84 @@
 $(document).ready(function() {
 
 
-$(".link-page_about").click(function(e) {
-	e.preventDefault();
-if ($(this).siblings(".text-about").hasClass("active")) {
+	$(".link-page_about").click(function(e) {
+		e.preventDefault();
+		if ($(this).siblings(".text-about").hasClass("active")) {
 			$(this).siblings(".text-about").removeClass("active");
 			$(this).html("Показать еще");
 		} else {
 			$(this).siblings(".text-about").addClass("active");
 			$(this).html("Скрыть");
 		}
-});
+	});
 
-$(".link-page_review").click(function(e) {
-	e.preventDefault();
-if ($(this).siblings(".text-review").hasClass("active")) {
+	$(".link-page_review").click(function(e) {
+		e.preventDefault();
+		if ($(this).siblings(".text-review").hasClass("active")) {
 			$(this).siblings(".text-review").removeClass("active");
 			$(this).html("Показать еще");
 		} else {
 			$(this).siblings(".text-review").addClass("active");
 			$(this).html("Скрыть");
 		}
-});
+	});
 
 
-$(".btn-simple_more-prices").click(function(e) {
-	e.preventDefault();
-if ($(".wrap-prices_block .item-price:nth-child(n+11)").is(":hidden")) {
+	$(".btn-simple_more-prices").click(function(e) {
+		e.preventDefault();
+		if ($(".wrap-prices_block .item-price:nth-child(n+11)").is(":hidden")) {
 			$(".wrap-prices_block .item-price:nth-child(n+11)").addClass("active");
 			$(this).html("Скрыть");
 		} else {
 			$(".wrap-prices_block .item-price:nth-child(n+11)").removeClass("active");
 			$(this).html("Смотреть ещё");
 		}
-});
+	});
 
-$(".link-page_master-services").click(function(e) {
-	e.preventDefault();
-if ($(".master-services .line-price:nth-child(n+4)").is(":hidden")) {
+	$(".link-page_master-services").click(function(e) {
+		e.preventDefault();
+		if ($(".master-services .line-price:nth-child(n+4)").is(":hidden")) {
 			$(".master-services .line-price:nth-child(n+4)").addClass("active");
 			$(this).html("Скрыть");
 		} else {
 			$(".master-services .line-price:nth-child(n+4)").removeClass("active");
 			$(this).html("Ещё 5 услуг");
 		}
-});
+	});
 
 
-$(".btn-simple_reviews-master").click(function(e) {
-	e.preventDefault();
-if ($(".wrap-reviews_master .review:nth-child(n+4)").is(":hidden")) {
+	$(".btn-simple_reviews-master").click(function(e) {
+		e.preventDefault();
+		if ($(".wrap-reviews_master .review:nth-child(n+4)").is(":hidden")) {
 			$(".wrap-reviews_master .review:nth-child(n+4)").addClass("active");
 			$(this).html("Скрыть");
 		} else {
 			$(".wrap-reviews_master .review:nth-child(n+4)").removeClass("active");
 			$(this).html("Смотреть ещё");
 		}
-});
+	});
 
-$(".btn-simple_reviews-main").click(function(e) {
-	e.preventDefault();
-if ($(".wrap-reviews_main .review:nth-child(n+8)").is(":hidden")) {
+	$(".btn-simple_reviews-main").click(function(e) {
+		e.preventDefault();
+		if ($(".wrap-reviews_main .review:nth-child(n+8)").is(":hidden")) {
 			$(".wrap-reviews_main .review:nth-child(n+8)").addClass("active");
 			$(this).html("Скрыть");
 		} else {
 			$(".wrap-reviews_main .review:nth-child(n+8)").removeClass("active");
 			$(this).html("Показать еще");
 		}
-});
+	});
+
+	$(".services_frontpage .item-service .link-page").click(function(e) {
+		e.preventDefault();
+		if ($(this).siblings("ul").find("li:nth-child(n+6)").is(":hidden")) {
+			$(this).siblings("ul").find("li:nth-child(n+6)").addClass("active");
+			$(this).html("Скрыть");
+		} else {
+			$(this).siblings("ul").find("li:nth-child(n+6)").removeClass("active");
+			$(this).html("Показать еще");
+		}
+	});
 
 
 //прилипающие меню
@@ -111,28 +122,28 @@ $(".btn-main_filter-price").click(function(e) {
 
 $(".col_form-cooperation form .btn-main").click(function(e) {
 	e.preventDefault();
-	 $.fancybox.open('#modal-cooperation');
+	$.fancybox.open('#modal-cooperation');
 });
 
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
-	     /*input file*/
-  $("input[type='file']").change(function(){
-    var filename_text = $(this).parent().siblings(".name-upload");
-    var filename = $(this).val().replace(/.*\\/, "");
-    filename_text.html(filename);
-  });
+	/*input file*/
+	$("input[type='file']").change(function(){
+		var filename_text = $(this).parent().siblings(".name-upload");
+		var filename = $(this).val().replace(/.*\\/, "");
+		filename_text.html(filename);
+	});
 
-$(".rating_estimate .rating__item").click(function() {
-	$(this).parent().removeClass("rating_1");
-	$(this).parent().removeClass("rating_2");
-	$(this).parent().removeClass("rating_3");
-	$(this).parent().removeClass("rating_4");
-	$(this).parent().removeClass("rating_5");
-	var rating = $(this).attr("data-rating");
-	$(this).parent().addClass("rating_" + rating);
-});
+	$(".rating_estimate .rating__item").click(function() {
+		$(this).parent().removeClass("rating_1");
+		$(this).parent().removeClass("rating_2");
+		$(this).parent().removeClass("rating_3");
+		$(this).parent().removeClass("rating_4");
+		$(this).parent().removeClass("rating_5");
+		var rating = $(this).attr("data-rating");
+		$(this).parent().addClass("rating_" + rating);
+	});
 
 	//кнопка sandwich
 	$(".btn_nav-menu").click(function() {
@@ -417,8 +428,8 @@ $(".rating_estimate .rating__item").click(function() {
 			});
 
 			$('.nav-prices li:not(".nav-prices__haschild") a').click(function(event) {
-		$(".nav-prices").slideUp(200);
-	});
+				$(".nav-prices").slideUp(200);
+			});
 		}
 	}
 

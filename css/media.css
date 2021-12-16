@@ -1511,6 +1511,9 @@
 .menu-mobile .btn-simple {
 	margin-top: 15px;
 }
+.item-service {
+	min-height: 360px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -1969,6 +1972,9 @@
 }
 .master__image {
 	margin-bottom: 82px;
+}
+.item-service {
+	min-height: initial;
 }
 }
 

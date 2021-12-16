@@ -691,7 +691,7 @@ select {
 	padding-bottom: 45px;
 	font-weight: 500;
 	background-color: #ffffff;
-	min-height: 100%;
+	min-height: 412px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -765,7 +765,7 @@ select {
 	background-color: #f4f4f4;
 }
 .masters .title-section {
-    max-width: 1042px;
+	max-width: 1042px;
 }
 .master {
 	padding: 20px;
@@ -3183,12 +3183,12 @@ select {
 	background-color: rgba(244,244,244,0.8);
 }
 .item-calculation img {
-	    left: -19px;
-    bottom: -5px;
+	left: -19px;
+	bottom: -5px;
 	position: absolute;
 }
 .item-calculation:last-child img {
-    	left: -10px;
+	left: -10px;
 	bottom: 10px;
 }
 .calculation .title-section {
@@ -3255,16 +3255,16 @@ select {
 	display: block;
 }
 .wrap-prices_block .item-price:nth-child(n+11) {
-display: none;
+	display: none;
 }
 .wrap-prices_block .item-price.active {
 	display: flex;
 }
 .text-about {
-	            display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;  
-    overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;  
+	overflow: hidden;
 }
 .text-review.active,
 .text-about.active {
@@ -3272,18 +3272,18 @@ display: none;
 }
 .text-review {
 
-	            display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;  
-    overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;  
+	overflow: hidden;
 }
+.wrap-reviews_main .review:nth-child(n+8),
+.services_frontpage .item-service li:nth-child(n+6),
 .wrap-reviews_master .review:nth-child(n+4),
 .master-services .line-price:nth-child(n+4) {
-display: none;
-}
-.wrap-reviews_main .review:nth-child(n+8) {
 	display: none;
 }
+.services_frontpage .item-service li.active,
 .wrap-reviews_main .review.active,
 .wrap-reviews_master .review.active,
 .master-services .line-price.active {
