@@ -1044,6 +1044,13 @@
 .item-calculation:last-child img {
 	bottom: 9px;
 }
+
+.menu-dropdown li {
+    padding: 7px 20px;
+    }
+    .menu-dropdown ul {
+    width: 315px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -1501,6 +1508,9 @@
 .calculation {
 	background-position: left center;
 }
+.menu-mobile .btn-simple {
+	margin-top: 15px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -1933,6 +1943,33 @@
 .item-calculation img {
 	left: -10px;
 }
+.billbord .btn-main {
+		background-color: #18d15c;
+}
+.billbord .btn-main:hover {
+		background-color: #0eae49;
+}
+.master__center {
+	position: static;
+}
+.master__main-info {
+	position: absolute;
+	top: 274px;
+	width: 100%;
+	left: 0;
+	right: 0;
+	padding: 0 15px;
+	text-align: center;
+}
+.master__main-info .title-middle {
+	margin-bottom: 5px;
+}
+.master {
+	position: relative;
+}
+.master__image {
+	margin-bottom: 82px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -2333,14 +2370,21 @@
 	.container {
 		max-width: 1400px;
 	}
+	.reviews-page #tab3	.selection-form {
+    padding: 50px 235px;
+}
 }
 @media (min-width: 1575px) {
 	.container {
 		max-width: 1500px;
 	}
+
 }
 @media (min-width: 1700px) {
 	.container {
 		max-width: 1630px;
 	}
+	.reviews-page #tab3 .selection-form {
+    padding: 50px 310px;
+}
 }
