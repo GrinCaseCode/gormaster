@@ -2569,3 +2569,20 @@
 		width: 104%;
 	}
 }
+
+@media (min-width: 1921px) {
+.billbord {
+	background-position: right 161px center;
+}
+.billbord::after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 1000%;
+	height: 100%;
+	top: 0;
+	right: 100%;
+	z-index: -1;
+	background-color: #f9f9f9;
+}
+}

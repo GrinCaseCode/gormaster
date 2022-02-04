@@ -3430,3 +3430,7 @@ select {
 .reviews-page .button-center {
 	padding-top: 20px;
 }
+.billbord {
+	max-width: 1920px;
+	margin: 0 auto;
+}
