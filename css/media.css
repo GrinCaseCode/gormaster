@@ -2553,11 +2553,15 @@
 	.reviews-page #tab3	.selection-form {
 		padding: 50px 235px;
 	}
+	.item-benefit__content {
+		max-width: 100%;
+	}
 }
 @media (min-width: 1575px) {
 	.container {
 		max-width: 1500px;
 	}
+
 
 }
 @media (min-width: 1700px) {
