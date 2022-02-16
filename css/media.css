@@ -693,6 +693,9 @@
 	.gallery + .selection {
 		padding-bottom: 50px;
 	}
+	.item-benefit {
+    padding-left: calc((100% - 1170px)/2);
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -1133,6 +1136,9 @@
 		.menu-dropdown ul {
 			width: 315px;
 		}
+		.item-benefit::before {
+    width: 55%;
+}
 	}
 
 	/* Medium Devices, Desktops */

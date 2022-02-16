@@ -3434,3 +3434,7 @@ select {
 	max-width: 1920px;
 	margin: 0 auto;
 }
+.slider-benefits {
+	max-width: 1600px;
+	margin: 0 auto;
+}
